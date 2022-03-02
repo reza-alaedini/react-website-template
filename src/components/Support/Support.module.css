@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    margin: 60px;
+}
+.container h3{
+    font-size: 3rem;
+    color: #696969;
+    font-weight: bold;
+}
+.container div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    align-items: center;
+}
+.container img{
+    width: 300px;
+}
+.container img:nth-child(1){
+    width: 150px;
+    height: 150px;
+}

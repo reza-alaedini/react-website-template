@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7c8c8d;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.menu li {
+    padding: 0 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.menu li:hover {
+    cursor: pointer;
+    color: #b5c1c2;
+}
+
+.imgContainer img{
+    width: 130px;
+    padding: 10px 20px;
+}

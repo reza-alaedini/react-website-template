@@ -1,0 +1,26 @@
+.container{
+    background-color: #30c0e4;
+    font-weight: bold;
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container p{
+    font-size: 4rem;
+    color: white;
+}
+
+.container input{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    transition: 0.5s;
+}
+.container input::placeholder{
+    font-size: 1rem;
+}
+.container input:focus{
+    transform: scale(110%);
+}
