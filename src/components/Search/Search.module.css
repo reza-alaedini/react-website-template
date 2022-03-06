@@ -1,26 +1,35 @@
-.container{
-    background-color: #30c0e4;
-    font-weight: bold;
-    padding: 100px 150px;
-    display: flex;
-    justify-content: space-between;
+.container {
+  background-image: linear-gradient(
+    to right,
+    rgb(29, 78, 216),
+    rgb(30, 64, 175),
+    rgb(17, 24, 39)
+  );
+  font-weight: bold;
+  padding: 100px 150px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.container p{
-    font-size: 4rem;
-    color: white;
+.container p {
+  font-size: 4rem;
+  color: white;
 }
 
-.container input{
-    padding: 20px;
-    border: none;
-    border-radius: 10px;
-    width: 300px;
-    transition: 0.5s;
+.container input {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  transition: 0.5s;
 }
-.container input::placeholder{
-    font-size: 1rem;
+.container input::placeholder {
+  font-size: 1rem;
 }
-.container input:focus{
-    transform: scale(110%);
+.container input:focus {
+  transform: scale(110%);
+}
+.searchP {
+  color: white;
+  font-size: 30px !important;
 }
