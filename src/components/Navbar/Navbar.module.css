@@ -10,16 +10,17 @@
   list-style: none;
   padding: 10px;
 }
-.menu li {
+.menu li a {
   padding: 0 10px;
   color: white;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 19px;
   transition: 0.5s;
+  text-decoration: none;
 }
-.menu li:hover {
+.menu li a:hover {
   cursor: pointer;
-  color: #b5c1c2;
+  color: #5ccfda;
 }
 
 .imgContainer img {

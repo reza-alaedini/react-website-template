@@ -8,8 +8,8 @@
 .bannerText{
     position: absolute;
     padding: 20px;
-    top: 180px;
-    left: 150px;
+    top: 160px;
+    left: 40px;
 }
 .bannerText h1{
     font-size: 7rem;

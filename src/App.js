@@ -1,20 +1,19 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import Banner from "./components/Banner/Banner";
-import Cards from "./components/Cards/Cards";
 import Navbar from "./components/Navbar/Navbar";
-import Search from "./components/Search/Search";
-import Support from "./components/Support/Support";
 import Footer from "./components/Footer/Footer";
+import Landing from "./components/Landing-Layout/Landing";
+import Products from "./components/Products/Products";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Banner />
-      <Cards />
-      <Search />
-      <Support />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/products" element={<Products />} />
+      </Routes>
       <Footer />
     </>
   );
